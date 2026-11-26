@@ -1,0 +1,108 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+    imports: [
+        "vendor/motorola/sm6125-common",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_mot_ov02a",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_mot_ov02a.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_mot_s5k4h7",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_mot_s5k4h7.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libmmcamera_dbg",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_mot_s5k4h7_eeprom",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_mot_s5k4h7_eeprom.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "libmmcamera_eeprom_util",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "vendor_lib_rfsa_adsp_tas25xx_TI_0_bin",
+    filename: "tas25xx_TI_0.bin",
+    owner: "motorola",
+    src: "proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_0.bin",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "vendor_lib_rfsa_adsp_tas25xx_TI_1_bin",
+    filename: "tas25xx_TI_1.bin",
+    owner: "motorola",
+    src: "proprietary/vendor/lib/rfsa/adsp/tas25xx_TI_1.bin",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}

@@ -1,0 +1,55 @@
+{
+  "config":{
+    "hw_platform": ["IDP"],
+    "soc_id": ["394"],
+    "ro.vendor.hw.radio": ["NA"]
+  },
+  "tsl2540_platform":{
+    "owner": "sns_tsl2540",
+    ".coefficient":{
+      "owner": "sns_tsl2540",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "5955.401"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "-0.14"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.234"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.025"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "1.0"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "0.08"
+      },
+      "6":{ "type": "flt", "ver": "2",
+        "data": "1069.472"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "0.08"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "2815.0"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "0.213"
+      },
+      "10":{ "type": "flt", "ver": "2",
+        "data": "2815.0"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "4495.051"
+      },
+      "12":{ "type": "flt", "ver": "0",
+        "data": "2.5"
+      },
+      "13":{ "type": "flt", "ver": "0",
+        "data": "7.5"
+      }
+    }
+  }
+}
